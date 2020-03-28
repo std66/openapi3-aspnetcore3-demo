@@ -1,0 +1,29 @@
+openapi: "3.0.0"
+info:
+  title: "TomiSoft DateTime Test Api"
+  version: "1.0"
+tags:
+  - name: DateTime
+    description: "This tag refers to date-time related operations"
+paths:
+  /currentTime:
+    get:
+      tags: 
+        - DateTime
+      description: "Gets the server's current date-time in UTC format"
+      operationId: GetUtcDateTime
+      responses:
+        200:
+          description: "Represents the response of /currentTime API path"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DateTimeObject"
+components:
+  schemas:
+    DateTimeObject:
+      type: object
+      properties:
+        dateTime:
+          type: string
+          format: date-time
