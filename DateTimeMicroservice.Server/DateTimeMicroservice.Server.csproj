@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DateTimeMicroservice.Server.OpenApiGenerated\DateTimeMicroservice.Server.OpenApiGenerated.csproj" />
+  </ItemGroup>
+
 
 
 </Project>
