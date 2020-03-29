@@ -10,7 +10,7 @@ function Remove-DirectoryIfExists($directory) {
     }
 }
 
-#remove $GeneratedSourceOutputDir if exists
+#remove previous generated code if exists
 Remove-DirectoryIfExists $GeneratedSourceOutputDir
 
 java -jar .\openapi-generator-cli.jar `
@@ -18,4 +18,5 @@ java -jar .\openapi-generator-cli.jar `
     -i $OpenApiDocument `
     -o $GeneratedSourceOutputDir `
     -g aspnetcore `
+    -p generateBody=false,aspnetCoreVersion=3.0,isLibrary=true,buildTarget=library,operationModifier=abstract,useDefaultRouting=false `
     --package-name $GeneratedSourcePackageName
