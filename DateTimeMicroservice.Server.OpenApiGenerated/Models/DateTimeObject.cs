@@ -24,7 +24,7 @@ namespace DateTimeMicroservice.Server.OpenApiGenerated.Models
     /// 
     /// </summary>
     [DataContract]
-    public partial class DateTimeObject : IEquatable<DateTimeObject>
+    public class DateTimeObject : IEquatable<DateTimeObject>
     {
         /// <summary>
         /// Gets or Sets DateTime
