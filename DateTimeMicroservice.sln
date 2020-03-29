@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeMicroservice.Server.OpenApiGenerated", "DateTimeMicroservice.Server.OpenApiGenerated\DateTimeMicroservice.Server.OpenApiGenerated.csproj", "{D2D8772A-29C8-4127-9D76-4B9706DBDE40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeMicroservice.Server", "DateTimeMicroservice.Server\DateTimeMicroservice.Server.csproj", "{B0E12795-251D-421A-B127-D8D46044090A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeMicroservice.Server", "DateTimeMicroservice.Server\DateTimeMicroservice.Server.csproj", "{B0E12795-251D-421A-B127-D8D46044090A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeMicroservice.Client.OpenApiGenerated", "DateTimeMicroservice.Client.OpenApiGenerated\DateTimeMicroservice.Client.OpenApiGenerated.csproj", "{71ECB47F-E452-47A5-B9E5-E73675796A9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B0E12795-251D-421A-B127-D8D46044090A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0E12795-251D-421A-B127-D8D46044090A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0E12795-251D-421A-B127-D8D46044090A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71ECB47F-E452-47A5-B9E5-E73675796A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71ECB47F-E452-47A5-B9E5-E73675796A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71ECB47F-E452-47A5-B9E5-E73675796A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71ECB47F-E452-47A5-B9E5-E73675796A9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
